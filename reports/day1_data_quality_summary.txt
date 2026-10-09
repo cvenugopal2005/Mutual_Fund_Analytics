@@ -1,0 +1,128 @@
+BLUESTOCK FINTECH - DAY 1 DATA QUALITY SUMMARY
+=======================================================
+CSV files found: 10
+
+File: 01_fund_master.csv
+Rows: 40
+Columns: 15
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 02_nav_history.csv
+Rows: 46000
+Columns: 3
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 03_aum_by_fund_house.csv
+Rows: 90
+Columns: 5
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 04_monthly_sip_inflows.csv
+Rows: 48
+Columns: 6
+Missing cells: 12
+Duplicate rows: 0
+Completely empty rows: 0
+
+ANOMALY: 12 missing cell(s).
+
+File: 05_category_inflows.csv
+Rows: 144
+Columns: 3
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 06_industry_folio_count.csv
+Rows: 21
+Columns: 6
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 07_scheme_performance.csv
+Rows: 40
+Columns: 19
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 08_investor_transactions.csv
+Rows: 32778
+Columns: 13
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 09_portfolio_holdings.csv
+Rows: 322
+Columns: 8
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+File: 10_benchmark_indices.csv
+Rows: 8050
+Columns: 3
+Missing cells: 0
+Duplicate rows: 0
+Completely empty rows: 0
+
+
+Fund houses: 10 unique values
+  - Aditya Birla Sun Life MF
+  - Axis Mutual Fund
+  - DSP Mutual Fund
+  - HDFC Mutual Fund
+  - ICICI Prudential MF
+  - Kotak Mahindra MF
+  - Mirae Asset MF
+  - Nippon India MF
+  - SBI Mutual Fund
+  - UTI Mutual Fund
+
+Categories: 2 unique values
+  - Debt
+  - Equity
+
+Sub-categories: 12 unique values
+  - ELSS
+  - Flexi Cap
+  - Gilt
+  - Index
+  - Index/ETF
+  - Large & Mid Cap
+  - Large Cap
+  - Liquid
+  - Mid Cap
+  - Short Duration
+  - Small Cap
+  - Value
+
+Risk grades: 5 unique values
+  - High
+  - Low
+  - Moderate
+  - Moderately High
+  - Very High
+
+AMFI SCHEME-CODE VALIDATION
+Unique fund-master codes: 40
+Unique NAV-history codes: 40
+Fund-master codes absent from NAV history: 0
+Extra NAV-history codes: 0
+Validation result: PASS
